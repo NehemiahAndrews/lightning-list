@@ -5,3 +5,4 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Company.create(name: "ABC Letters", phone_number: '313-111-2222', contact_name: 'Al Phabet', address: '1234 Easy Street',city: 'Farmington', state: 'MI', zip: '48336')

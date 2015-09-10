@@ -1,0 +1,13 @@
+ <% @parsed["results"].each do |company| %>
+  <div class="booyah-box col-xs-4 col-xs-offset-1">
+    <h1><%= company["company_link/_text"] %></h1>
+    <%= company["address"] %></br>
+    <%= company["city"] %><%= company["state"] %>, <%= company["zip"] %> 
+    </br></br>
+
+    <%= company["contact"] %></br>
+    <%= company["phone"] %>
+  </div>
+  <% end %>
+
+
